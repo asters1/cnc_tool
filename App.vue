@@ -14,4 +14,8 @@
 
 <style>
 	/*每个页面公共css */
+	page{
+		height: 100%;
+		overflow: hidden;
+	}
 </style>
