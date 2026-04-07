@@ -10,7 +10,7 @@
 			<view class="panel" @click.stop>
 				<scroll-view scroll-y class="list-scroll" enhanced="true">
 					<view v-for="(item, idx) in g.history_data.slice().reverse()" :key="idx" class="item" @click="select(idx, item)">
-						{{idx+1}}.{{`   `+item.time }}
+						{{idx+1}}.{{item.time }}
 					</view>
 				</scroll-view>
 				<view class="cancel" @click="showModal = false">取消</view>

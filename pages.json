@@ -29,6 +29,14 @@
 				"navigationBarTitleText" : "测试页面",
 				"enablePullDownRefresh" : false
 			}
+		},
+		{
+			"path" : "pages/img/img",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false
+			}
 		}
 	],
 	"globalStyle": {
